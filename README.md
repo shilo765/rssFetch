@@ -11,6 +11,8 @@ Displays the developer's name- shilo ben natan.
 Dynamically updates the date and time every minute.
 Contains an empty label.
 Provides a button to navigate to the second page.
+![image](https://github.com/shilo765/rssFetch/assets/63932084/8b09661e-17fe-405d-aabd-65e55cc3973b)
+
 
 
 Second Page:
@@ -24,3 +26,8 @@ Returning to the first page updates the empty label with the title of the last o
 The application checks each RSS source every 5 seconds for updates, ensuring immediate UI updates upon new information.
 
 ![image](https://github.com/shilo765/rssFetch/assets/63932084/6fcbb95a-89a6-4c73-8ea3-772cfc6403bc)
+![image](https://github.com/shilo765/rssFetch/assets/63932084/efc958f1-837a-4047-802a-7da60390ad0f)
+
+i maid the first page also in react native app page:
+![image](https://github.com/shilo765/rssFetch/assets/63932084/1293e964-7bb2-4ebb-a5a9-01d99cb6a110)
+
