@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EED7">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/dateTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#F42218"
+        android:layout_below="@id/nameTextView"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/lastFeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_below="@id/dateTimeTextView"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/secondPageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CNN feeds"
+        android:background="@color/black"
+        android:layout_below="@id/lastFeedTextView"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
