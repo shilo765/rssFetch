@@ -26,8 +26,27 @@ Returning to the first page updates the empty label with the title of the last o
 The application checks each RSS source every 5 seconds for updates, ensuring immediate UI updates upon new information.
 
 ![image](https://github.com/shilo765/rssFetch/assets/63932084/6fcbb95a-89a6-4c73-8ea3-772cfc6403bc)
+
+
+
 ![image](https://github.com/shilo765/rssFetch/assets/63932084/efc958f1-837a-4047-802a-7da60390ad0f)
 
 i maid the first page also in react native app page:
+
+
+
+
 ![image](https://github.com/shilo765/rssFetch/assets/63932084/1293e964-7bb2-4ebb-a5a9-01d99cb6a110)
+
+
+
+Installing projects
+Android Studio:
+1) Build a new Kotlin project
+2) Paste all the folders in place except REACTPAGE and replace them instead of the default folders
+Run the project (the project runs on Android 31 and above)
+
+React Native:
+1) Build a new React Native project
+2) Replace the APP.jsx file with the APP file found in REACTPAGE and run the project
 
